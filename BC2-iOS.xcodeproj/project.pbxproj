@@ -33,10 +33,6 @@
 		073C39BD2AEF6A65000F78BD /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C39BC2AEF6A65000F78BD /* PopUpView.swift */; };
 		073C39BF2AEF6A7D000F78BD /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C39BE2AEF6A7D000F78BD /* SubView.swift */; };
 		073C39C12AEF6A9D000F78BD /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C39C02AEF6A9D000F78BD /* MyData.swift */; };
-		073C39C62AEF6ACF000F78BD /* coinAction.json in Resources */ = {isa = PBXBuildFile; fileRef = 073C39C22AEF6ACE000F78BD /* coinAction.json */; };
-		073C39C72AEF6ACF000F78BD /* coin.json in Resources */ = {isa = PBXBuildFile; fileRef = 073C39C32AEF6ACF000F78BD /* coin.json */; };
-		073C39C82AEF6ACF000F78BD /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 073C39C42AEF6ACF000F78BD /* success.json */; };
-		073C39C92AEF6ACF000F78BD /* block.json in Resources */ = {isa = PBXBuildFile; fileRef = 073C39C52AEF6ACF000F78BD /* block.json */; };
 		073C39CB2AEF6B01000F78BD /* ChargeRealmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C39CA2AEF6B01000F78BD /* ChargeRealmEntity.swift */; };
 		073C39CD2AEF6B19000F78BD /* ChargeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C39CC2AEF6B19000F78BD /* ChargeResponse.swift */; };
 		073C39CF2AEF6B26000F78BD /* PaymentRealmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C39CE2AEF6B26000F78BD /* PaymentRealmEntity.swift */; };
@@ -56,7 +52,6 @@
 		073C39EB2AEF703C000F78BD /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C39EA2AEF703C000F78BD /* PopUpViewController.swift */; };
 		073C39ED2AEF705E000F78BD /* ReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C39EC2AEF705E000F78BD /* ReaderViewController.swift */; };
 		073C39EF2AEF707C000F78BD /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C39EE2AEF707C000F78BD /* StartViewController.swift */; };
-		073C39F12AEF70A4000F78BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 073C39F02AEF70A4000F78BD /* GoogleService-Info.plist */; };
 		073C39F42AEFC10A000F78BD /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 073C39F32AEFC10A000F78BD /* FirebaseAnalytics */; };
 		073C39F62AEFC10A000F78BD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 073C39F52AEFC10A000F78BD /* FirebaseAnalyticsOnDeviceConversion */; };
 		073C39F82AEFC10A000F78BD /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 073C39F72AEFC10A000F78BD /* FirebaseAnalyticsSwift */; };
@@ -68,6 +63,11 @@
 		073C3A042AEFC10A000F78BD /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 073C3A032AEFC10A000F78BD /* FirebaseCrashlytics */; };
 		073C3A062AEFC10A000F78BD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 073C3A052AEFC10A000F78BD /* FirebaseDatabase */; };
 		073C3A082AEFC10A000F78BD /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 073C3A072AEFC10A000F78BD /* FirebaseDatabaseSwift */; };
+		073C3A0D2AF080BD000F78BD /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 073C3A092AF080BC000F78BD /* success.json */; };
+		073C3A0E2AF080BD000F78BD /* coin.json in Resources */ = {isa = PBXBuildFile; fileRef = 073C3A0A2AF080BC000F78BD /* coin.json */; };
+		073C3A0F2AF080BD000F78BD /* coinAction.json in Resources */ = {isa = PBXBuildFile; fileRef = 073C3A0B2AF080BC000F78BD /* coinAction.json */; };
+		073C3A102AF080BD000F78BD /* block.json in Resources */ = {isa = PBXBuildFile; fileRef = 073C3A0C2AF080BD000F78BD /* block.json */; };
+		073C3A122AF080D6000F78BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 073C3A112AF080D6000F78BD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,10 +89,6 @@
 		073C39BC2AEF6A65000F78BD /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		073C39BE2AEF6A7D000F78BD /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
 		073C39C02AEF6A9D000F78BD /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
-		073C39C22AEF6ACE000F78BD /* coinAction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = coinAction.json; path = "../../../../ㅠㅊ2/BC2-IOS/BC2/Lottie/coinAction.json"; sourceTree = "<group>"; };
-		073C39C32AEF6ACF000F78BD /* coin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = coin.json; path = "../../../../ㅠㅊ2/BC2-IOS/BC2/Lottie/coin.json"; sourceTree = "<group>"; };
-		073C39C42AEF6ACF000F78BD /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = success.json; path = "../../../../ㅠㅊ2/BC2-IOS/BC2/Lottie/success.json"; sourceTree = "<group>"; };
-		073C39C52AEF6ACF000F78BD /* block.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = block.json; path = "../../../../ㅠㅊ2/BC2-IOS/BC2/Lottie/block.json"; sourceTree = "<group>"; };
 		073C39CA2AEF6B01000F78BD /* ChargeRealmEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeRealmEntity.swift; sourceTree = "<group>"; };
 		073C39CC2AEF6B19000F78BD /* ChargeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeResponse.swift; sourceTree = "<group>"; };
 		073C39CE2AEF6B26000F78BD /* PaymentRealmEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentRealmEntity.swift; sourceTree = "<group>"; };
@@ -112,7 +108,11 @@
 		073C39EA2AEF703C000F78BD /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		073C39EC2AEF705E000F78BD /* ReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewController.swift; sourceTree = "<group>"; };
 		073C39EE2AEF707C000F78BD /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		073C39F02AEF70A4000F78BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../ㅠㅊ2/BC2-IOS/BC2/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		073C3A092AF080BC000F78BD /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = success.json; path = "../../../iOS/BC2/BC2-IOS/BC2/Lottie/success.json"; sourceTree = "<group>"; };
+		073C3A0A2AF080BC000F78BD /* coin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = coin.json; path = "../../../iOS/BC2/BC2-IOS/BC2/Lottie/coin.json"; sourceTree = "<group>"; };
+		073C3A0B2AF080BC000F78BD /* coinAction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = coinAction.json; path = "../../../iOS/BC2/BC2-IOS/BC2/Lottie/coinAction.json"; sourceTree = "<group>"; };
+		073C3A0C2AF080BD000F78BD /* block.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = block.json; path = "../../../iOS/BC2/BC2-IOS/BC2/Lottie/block.json"; sourceTree = "<group>"; };
+		073C3A112AF080D6000F78BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../iOS/BC2/BC2-IOS/BC2/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 		073C391E2AEF3B7B000F78BD = {
 			isa = PBXGroup;
 			children = (
-				073C39292AEF3B7B000F78BD /* BC2-New */,
+				073C39292AEF3B7B000F78BD /* BC2-iOS */,
 				073C39282AEF3B7B000F78BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		073C39292AEF3B7B000F78BD /* BC2-New */ = {
+		073C39292AEF3B7B000F78BD /* BC2-iOS */ = {
 			isa = PBXGroup;
 			children = (
 				073C393F2AEF500B000F78BD /* App */,
@@ -179,9 +179,9 @@
 				073C393E2AEF5002000F78BD /* Utils */,
 				073C39402AEF5011000F78BD /* View */,
 				073C39382AEF3B84000F78BD /* Info.plist */,
-				073C39F02AEF70A4000F78BD /* GoogleService-Info.plist */,
+				073C3A112AF080D6000F78BD /* GoogleService-Info.plist */,
 			);
-			path = "BC2-New";
+			path = "BC2-iOS";
 			sourceTree = "<group>";
 		};
 		073C393E2AEF5002000F78BD /* Utils */ = {
@@ -274,10 +274,10 @@
 		073C39462AEF5069000F78BD /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
-				073C39C52AEF6ACF000F78BD /* block.json */,
-				073C39C32AEF6ACF000F78BD /* coin.json */,
-				073C39C22AEF6ACE000F78BD /* coinAction.json */,
-				073C39C42AEF6ACF000F78BD /* success.json */,
+				073C3A0C2AF080BD000F78BD /* block.json */,
+				073C3A0A2AF080BC000F78BD /* coin.json */,
+				073C3A0B2AF080BC000F78BD /* coinAction.json */,
+				073C3A092AF080BC000F78BD /* success.json */,
 			);
 			path = Lottie;
 			sourceTree = "<group>";
@@ -398,13 +398,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				073C39C82AEF6ACF000F78BD /* success.json in Resources */,
+				073C3A0E2AF080BD000F78BD /* coin.json in Resources */,
+				073C3A102AF080BD000F78BD /* block.json in Resources */,
 				073C39372AEF3B84000F78BD /* LaunchScreen.storyboard in Resources */,
-				073C39C62AEF6ACF000F78BD /* coinAction.json in Resources */,
-				073C39C72AEF6ACF000F78BD /* coin.json in Resources */,
+				073C3A0F2AF080BD000F78BD /* coinAction.json in Resources */,
 				073C39342AEF3B84000F78BD /* Assets.xcassets in Resources */,
-				073C39C92AEF6ACF000F78BD /* block.json in Resources */,
-				073C39F12AEF70A4000F78BD /* GoogleService-Info.plist in Resources */,
+				073C3A0D2AF080BD000F78BD /* success.json in Resources */,
+				073C3A122AF080D6000F78BD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
