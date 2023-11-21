@@ -19,8 +19,6 @@
 		073C399C2AEF58EA000F78BD /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 073C399B2AEF58EA000F78BD /* GoogleSignIn */; };
 		073C399E2AEF58EA000F78BD /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 073C399D2AEF58EA000F78BD /* GoogleSignInSwift */; };
 		073C39A12AEF5954000F78BD /* EventSource in Frameworks */ = {isa = PBXBuildFile; productRef = 073C39A02AEF5954000F78BD /* EventSource */; };
-		073C39A42AEF5993000F78BD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 073C39A32AEF5993000F78BD /* SnapKit */; };
-		073C39A62AEF5993000F78BD /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 073C39A52AEF5993000F78BD /* SnapKit-Dynamic */; };
 		073C39A92AEF59B2000F78BD /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 073C39A82AEF59B2000F78BD /* Then */; };
 		073C39AB2AEF5A6C000F78BD /* BC2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C39AA2AEF5A6C000F78BD /* BC2TableViewCell.swift */; };
 		073C39AF2AEF69BC000F78BD /* AddPriceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C39AE2AEF69BC000F78BD /* AddPriceButton.swift */; };
@@ -63,11 +61,9 @@
 		073C3A042AEFC10A000F78BD /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 073C3A032AEFC10A000F78BD /* FirebaseCrashlytics */; };
 		073C3A062AEFC10A000F78BD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 073C3A052AEFC10A000F78BD /* FirebaseDatabase */; };
 		073C3A082AEFC10A000F78BD /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 073C3A072AEFC10A000F78BD /* FirebaseDatabaseSwift */; };
-		073C3A0D2AF080BD000F78BD /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 073C3A092AF080BC000F78BD /* success.json */; };
-		073C3A0E2AF080BD000F78BD /* coin.json in Resources */ = {isa = PBXBuildFile; fileRef = 073C3A0A2AF080BC000F78BD /* coin.json */; };
-		073C3A0F2AF080BD000F78BD /* coinAction.json in Resources */ = {isa = PBXBuildFile; fileRef = 073C3A0B2AF080BC000F78BD /* coinAction.json */; };
-		073C3A102AF080BD000F78BD /* block.json in Resources */ = {isa = PBXBuildFile; fileRef = 073C3A0C2AF080BD000F78BD /* block.json */; };
-		073C3A122AF080D6000F78BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 073C3A112AF080D6000F78BD /* GoogleService-Info.plist */; };
+		7815C59E2B0C1ED50054C196 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7815C59D2B0C1ED50054C196 /* SnapKit */; };
+		7815C5A12B0C20BF0054C196 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7815C5A02B0C20BF0054C196 /* WebKit.framework */; };
+		7883B6D52B0BA64E007E7876 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7883B6D42B0BA64E007E7876 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,11 +104,8 @@
 		073C39EA2AEF703C000F78BD /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		073C39EC2AEF705E000F78BD /* ReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewController.swift; sourceTree = "<group>"; };
 		073C39EE2AEF707C000F78BD /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		073C3A092AF080BC000F78BD /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = success.json; path = "../../../iOS/BC2/BC2-IOS/BC2/Lottie/success.json"; sourceTree = "<group>"; };
-		073C3A0A2AF080BC000F78BD /* coin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = coin.json; path = "../../../iOS/BC2/BC2-IOS/BC2/Lottie/coin.json"; sourceTree = "<group>"; };
-		073C3A0B2AF080BC000F78BD /* coinAction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = coinAction.json; path = "../../../iOS/BC2/BC2-IOS/BC2/Lottie/coinAction.json"; sourceTree = "<group>"; };
-		073C3A0C2AF080BD000F78BD /* block.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = block.json; path = "../../../iOS/BC2/BC2-IOS/BC2/Lottie/block.json"; sourceTree = "<group>"; };
-		073C3A112AF080D6000F78BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../iOS/BC2/BC2-IOS/BC2/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7815C5A02B0C20BF0054C196 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7883B6D42B0BA64E007E7876 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,17 +113,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7815C5A12B0C20BF0054C196 /* WebKit.framework in Frameworks */,
 				073C3A082AEFC10A000F78BD /* FirebaseDatabaseSwift in Frameworks */,
 				073C39892AEF582E000F78BD /* Bootpay_SPM in Frameworks */,
 				073C3A022AEFC10A000F78BD /* FirebaseAuthCombine-Community in Frameworks */,
-				073C39A42AEF5993000F78BD /* SnapKit in Frameworks */,
 				073C3A002AEFC10A000F78BD /* FirebaseAuth in Frameworks */,
 				073C39862AEF5803000F78BD /* Lottie in Frameworks */,
 				073C39992AEF58C6000F78BD /* RealmSwift in Frameworks */,
-				073C39A62AEF5993000F78BD /* SnapKit-Dynamic in Frameworks */,
 				073C399C2AEF58EA000F78BD /* GoogleSignIn in Frameworks */,
 				073C39F42AEFC10A000F78BD /* FirebaseAnalytics in Frameworks */,
 				073C39FE2AEFC10A000F78BD /* FirebaseAppDistribution-Beta in Frameworks */,
+				7815C59E2B0C1ED50054C196 /* SnapKit in Frameworks */,
 				073C3A062AEFC10A000F78BD /* FirebaseDatabase in Frameworks */,
 				073C39F62AEFC10A000F78BD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 				073C39A92AEF59B2000F78BD /* Then in Frameworks */,
@@ -150,8 +143,9 @@
 		073C391E2AEF3B7B000F78BD = {
 			isa = PBXGroup;
 			children = (
-				073C39292AEF3B7B000F78BD /* BC2-iOS */,
+				073C39292AEF3B7B000F78BD /* BC2-New */,
 				073C39282AEF3B7B000F78BD /* Products */,
+				7815C59F2B0C20BE0054C196 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,15 +157,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		073C39292AEF3B7B000F78BD /* BC2-iOS */ = {
+		073C39292AEF3B7B000F78BD /* BC2-New */ = {
 			isa = PBXGroup;
 			children = (
+				7883B6D62B0BA6A2007E7876 /* Lottie */,
 				073C393F2AEF500B000F78BD /* App */,
 				073C39472AEF507C000F78BD /* Base */,
 				073C39432AEF5040000F78BD /* Cell */,
 				073C39412AEF5018000F78BD /* Custom */,
 				073C39442AEF5045000F78BD /* Data */,
-				073C39462AEF5069000F78BD /* Lottie */,
 				073C39422AEF5034000F78BD /* Model */,
 				073C39482AEF5086000F78BD /* Network */,
 				073C39492AEF5095000F78BD /* QRTest */,
@@ -179,9 +173,9 @@
 				073C393E2AEF5002000F78BD /* Utils */,
 				073C39402AEF5011000F78BD /* View */,
 				073C39382AEF3B84000F78BD /* Info.plist */,
-				073C3A112AF080D6000F78BD /* GoogleService-Info.plist */,
+				7883B6D42B0BA64E007E7876 /* GoogleService-Info.plist */,
 			);
-			path = "BC2-iOS";
+			path = "BC2-New";
 			sourceTree = "<group>";
 		};
 		073C393E2AEF5002000F78BD /* Utils */ = {
@@ -271,17 +265,6 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		073C39462AEF5069000F78BD /* Lottie */ = {
-			isa = PBXGroup;
-			children = (
-				073C3A0C2AF080BD000F78BD /* block.json */,
-				073C3A0A2AF080BC000F78BD /* coin.json */,
-				073C3A0B2AF080BC000F78BD /* coinAction.json */,
-				073C3A092AF080BC000F78BD /* success.json */,
-			);
-			path = Lottie;
-			sourceTree = "<group>";
-		};
 		073C39472AEF507C000F78BD /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +288,21 @@
 				073C39DC2AEF6BD2000F78BD /* ReaderView.swift */,
 			);
 			path = QRTest;
+			sourceTree = "<group>";
+		};
+		7815C59F2B0C20BE0054C196 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7815C5A02B0C20BF0054C196 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7883B6D62B0BA6A2007E7876 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lottie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,8 +329,6 @@
 				073C399B2AEF58EA000F78BD /* GoogleSignIn */,
 				073C399D2AEF58EA000F78BD /* GoogleSignInSwift */,
 				073C39A02AEF5954000F78BD /* EventSource */,
-				073C39A32AEF5993000F78BD /* SnapKit */,
-				073C39A52AEF5993000F78BD /* SnapKit-Dynamic */,
 				073C39A82AEF59B2000F78BD /* Then */,
 				073C39F32AEFC10A000F78BD /* FirebaseAnalytics */,
 				073C39F52AEFC10A000F78BD /* FirebaseAnalyticsOnDeviceConversion */,
@@ -345,6 +341,7 @@
 				073C3A032AEFC10A000F78BD /* FirebaseCrashlytics */,
 				073C3A052AEFC10A000F78BD /* FirebaseDatabase */,
 				073C3A072AEFC10A000F78BD /* FirebaseDatabaseSwift */,
+				7815C59D2B0C1ED50054C196 /* SnapKit */,
 			);
 			productName = "BC2-New";
 			productReference = 073C39272AEF3B7B000F78BD /* BC2-iOS.app */;
@@ -380,9 +377,9 @@
 				073C39952AEF58C6000F78BD /* XCRemoteSwiftPackageReference "realm-swift" */,
 				073C399A2AEF58EA000F78BD /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				073C399F2AEF5954000F78BD /* XCRemoteSwiftPackageReference "EventSource" */,
-				073C39A22AEF5993000F78BD /* XCRemoteSwiftPackageReference "SnapKit" */,
 				073C39A72AEF59B2000F78BD /* XCRemoteSwiftPackageReference "Then" */,
 				073C39F22AEFC10A000F78BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				7815C59C2B0C1ED50054C196 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 073C39282AEF3B7B000F78BD /* Products */;
 			projectDirPath = "";
@@ -398,13 +395,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				073C3A0E2AF080BD000F78BD /* coin.json in Resources */,
-				073C3A102AF080BD000F78BD /* block.json in Resources */,
+				7883B6D52B0BA64E007E7876 /* GoogleService-Info.plist in Resources */,
 				073C39372AEF3B84000F78BD /* LaunchScreen.storyboard in Resources */,
-				073C3A0F2AF080BD000F78BD /* coinAction.json in Resources */,
 				073C39342AEF3B84000F78BD /* Assets.xcassets in Resources */,
-				073C3A0D2AF080BD000F78BD /* success.json in Resources */,
-				073C3A122AF080D6000F78BD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,9 +584,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S4K8SAN9WG;
+				DEVELOPMENT_TEAM = 5T78F59TU2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BC2-New/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "이 앱은 카메라 권한을 필요로 합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -618,9 +614,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S4K8SAN9WG;
+				DEVELOPMENT_TEAM = 5T78F59TU2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BC2-New/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "이 앱은 카메라 권한을 필요로 합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -702,14 +701,6 @@
 				minimumVersion = 0.0.5;
 			};
 		};
-		073C39A22AEF5993000F78BD /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.6.0;
-			};
-		};
 		073C39A72AEF59B2000F78BD /* XCRemoteSwiftPackageReference "Then" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/devxoul/Then";
@@ -724,6 +715,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 10.16.0;
+			};
+		};
+		7815C59C2B0C1ED50054C196 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -763,16 +762,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 073C399F2AEF5954000F78BD /* XCRemoteSwiftPackageReference "EventSource" */;
 			productName = EventSource;
-		};
-		073C39A32AEF5993000F78BD /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 073C39A22AEF5993000F78BD /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		073C39A52AEF5993000F78BD /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 073C39A22AEF5993000F78BD /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
 		};
 		073C39A82AEF59B2000F78BD /* Then */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -833,6 +822,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 073C39F22AEFC10A000F78BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseDatabaseSwift;
+		};
+		7815C59D2B0C1ED50054C196 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7815C59C2B0C1ED50054C196 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
